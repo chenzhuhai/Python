@@ -11,3 +11,4 @@ gogo
 cha.basic_consume(callback, queue='hello', no_ack=True)
 print('[消费者] waiting for msg.')
 cha.start_consuming()
+end

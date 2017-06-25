@@ -11,5 +11,5 @@ def callback(ch, method, properties, body):
 cha.basic_consume(callback, queue='hello', no_ack=True)
 print('[消费者] waiting for msg.')
 cha.start_consuming()
-print('陈珠海')
+print('陈珠海1')
 print('sharon1')
